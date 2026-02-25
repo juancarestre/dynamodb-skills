@@ -33,3 +33,13 @@ Start a conversation with your agent and say:
 > I need to design a DynamoDB table for my application
 
 The orchestrator skill will detect your pipeline state and guide you through the right step.
+
+## Example
+
+The [`example/`](example/) folder contains the full output of a real pipeline run for a **Music Ranking** app (multi-user top 100 with genre/artist filtering and global rankings):
+
+| File | Description |
+|---|---|
+| [`access-patterns.md`](example/access-patterns.md) | 4 entities, 16 access patterns |
+| [`table-design.md`](example/table-design.md) | 2 GSIs, inverted score sort keys, 5 item types |
+| [`query-interfaces.md`](example/query-interfaces.md) | TypeScript interfaces, 17 key builders, 3 repositories |
