@@ -23,7 +23,7 @@ Each step produces a `.md` file that feeds into the next. By the end you have a 
 ## Install
 
 ```
-npx skills add anomalyco/dynamodb-skills
+npx skills add juancarestre/dynamodb-skills
 ```
 
 ## Usage
